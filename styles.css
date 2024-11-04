@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cl-primary: #1d2026;
+  --cl-secondary: #69707d;
+  --cl-accent: #ff7e1b;
+}
+/* =============HEADER================= */
+.container {
+  max-width: 375px;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  padding: 19px 24px 23px;
+  align-items: center;
+  margin-top: -2px;
+}
+
+.sneakers-wrapper {
+  margin-left: 16px;
+  margin-right: 89px;
+  padding: 3px 0;
+}
+
+.navbar {
+  display: none;
+}
+
+.basket-black {
+  margin-right: 22px;
+}
+
+/* ============== PHOTO =============== */
+
+.photo {
+  background-image: url("./assests/images/Rectangle.png");
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 130px 16px;
+  justify-content: space-between;
+}
+.mini-photos {
+  display: none;
+}
+
+/* ========== INFO ============ */
+
+.info {
+  padding: 24px 24px 88px;
+}
+
+.orange {
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--cl-accent);
+  letter-spacing: 2px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 12px;
+  margin-top: -3px;
+}
+
+.info-title {
+  color: var(--cl-primary);
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: "Kumbh Sans", sans-serif;
+  margin-bottom: 15px;
+}
+
+.info-description {
+  font-family: "Kumbh Sans", sans-serif;
+  color: var(--cl-secondary);
+  line-height: 25px;
+  font-size: 15px;
+  margin-bottom: 26px;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.price {
+  font-size: 28px;
+  line-height: 35px;
+  color: var(--cl-primary);
+  font-weight: 700;
+  margin-right: 20px;
+  margin-left: 2px;
+}
+
+.percent {
+  background-color: #ffeee2;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--cl-accent);
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 7px 8px 4px;
+  margin-right: 95px;
+}
+
+.old-price {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #b6bcc8;
+}
+
+.arifmetic {
+  width: 327px;
+  background-color: #f6f8fd;
+  display: flex;
+  padding: 26px 24px;
+  justify-content: space-between;
+  margin-top: -73px;
+  margin-left: 24px;
+  border-radius: 10px;
+}
+
+.arifmetic-number {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.84px;
+}
+
+.info-button {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.submit {
+  background-color: var(--cl-accent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  padding: 19px 103px 19px 100px;
+  margin-left: 24px;
+  border-radius: 10px;
+  gap: 15px;
+}
+
+.submit-text {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
